@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="Theme.TMDBView.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.TMDBView.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TMDBView.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,5 @@
+include ':tmdbview:app'
+include ':tmdbview:domain'
+include ':tmdbview:view'
+include ':tmdbview:data'
+rootProject.name = "TMDBView"
